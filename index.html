@@ -1,17 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>阿民的个人信息</title>
+  <title>个人简历</title>
+  <style>
+    table {
+      border-spacing: 0px;
+    }
+
+    table td {
+      padding: 5px;
+      border: 1px solid rgba(0, 0, 0, .5);
+    }
+    .outer {
+      margin-left: 5%;
+      width: 560px;
+    }
+    .divide {
+      border-top: 1px solid;
+      height: 0;
+    }
+    .project-title {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Hello World！</h1>
-  <h2>Hello World！</h2>
-  <h3>Hello World！</h1>
-  <h4>Hello World！</h2>
-  <h5>Hello World！</h1>
-  <h6>Hello World！</h2>
+  <section class="outer">
+    <!-- 个人信息 -->
+    <section>
+      <h3>个人信息</h3>
+      <table>
+        <tr>
+          <td>姓名</td>
+          <td>陈惠民</td>
+          <td>性别</td>
+          <td>男</td>
+        </tr>
+        <tr>
+          <td>电话</td>
+          <td>18759770340</td>
+          <td>邮箱</td>
+          <td>2276193373@qq.com</td>
+        </tr>
+      </table>
+    </section>
+    <!-- 教育经历-->
+    <section>
+      <h3>教育经历</h3>
+      <table>
+        <tr>
+          <td>湖南科技学院</td>
+          <td>数字媒体技术</td>
+          <td>本科</td>
+          <td>2015.09 - 2019.06</td>
+        </tr>
+      </table>
+
+    </section>
+    <!-- 证书 -->
+    <section>
+      <h3>证书</h3>
+      <ul>
+        <li>英语四级CET-4</li>
+      </ul>
+    </section>
+    <!-- 专业技能 -->
+    <section>
+      <h1>专业技能</h1>
+      <ul>
+        <li>熟悉前端基础知识，包括 <i>JavaScript ES6、HTML、CSS</i> 等</li>
+        <li>熟悉 <i>Vue</i> 及其周边工具 <i>Vuex、Vue-Router、Element-UI、Axios</i> 等</li>
+        <li>了解 <i>React</i> 及其周边工具 <i>redux、taro</i> 等</li>
+        <li>了解 <i>NodeJs</i> 开发，用过 <i>express</i> 框架，了解 <i>Mongodb</i> </li>
+      </ul>
+    </section>
+    <!-- 工作经历 -->
+    <section>
+      <h1>工作经历</h1>
+      <table>
+        <tr>
+          <td>厦门麟鼎信息科技有限公司</td>
+          <td>前端研发工程师</td>
+          <td>2019.10 - 2021.03</td>
+        </tr>
+      </table>
+    </section>
+    <!-- 项目经历 -->
+    <section class="project">
+      <h3>项目经历</h3>
+      <div class="divide" />
+      <div class="project-title">
+        <h4>项目A</h4>
+        <h4>（项目日期）</h4>
+      </div>
+      <ul>
+        <li>项目介绍：</li>
+        <li>技术栈：</li>
+        <li>主要工作：</li>
+      </ul>
+    </section>
+  </section>
 </body>
+
 </html>
