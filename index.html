@@ -27,6 +27,13 @@
       display: flex;
       justify-content: space-between;
     }
+    .project-ul > li {
+      display: flex;
+      justify-content: flex-start;
+    }
+    .project-ul > li div:first-child {
+      min-width: 80px;
+    }
   </style>
 </head>
 
@@ -76,8 +83,11 @@
       <ul>
         <li>熟悉前端基础知识，包括 <i>JavaScript ES6、HTML、CSS</i> 等</li>
         <li>熟悉 <i>Vue</i> 及其周边工具 <i>Vuex、Vue-Router、Element-UI、Axios</i> 等</li>
+        <li>熟悉 <i>Sass</i> 预处理器</li>
+        <li>了解 <i>webpack</i></li>
         <li>了解 <i>React</i> 及其周边工具 <i>redux、taro</i> 等</li>
-        <li>了解 <i>NodeJs</i> 开发，用过 <i>express</i> 框架，了解 <i>Mongodb</i> </li>
+        <li>了解 <i>NodeJs</i> 开发，用过 <i>Express</i> 框架，了解 <i>Mongodb</i> </li>
+        <li>熟悉小程序开发</li>
       </ul>
     </section>
     <!-- 工作经历 -->
@@ -96,13 +106,46 @@
       <h3>项目经历</h3>
       <div class="divide" />
       <div class="project-title">
-        <h4>项目A</h4>
-        <h4>（项目日期）</h4>
+        <h4>酒店后台管理系统</h4>
       </div>
-      <ul>
-        <li>项目介绍：</li>
-        <li>技术栈：</li>
-        <li>主要工作：</li>
+      <ul class="project-ul">
+        <li>
+          <div>项目介绍：</div>
+          <div>利用 Vue + Element-UI 等技术实现了集团管理设置，酒店设置以及订单处理</div>
+        </li>
+        <li>
+          <div>技术栈：</div>
+          <div>Vue + Vuex + Element-UI + Axios</div>
+        </li>
+        <li>
+          <div>主要工作：</div>
+          <div>担任项目主要前端开发，配合UI设计组件，实现页面交互。与后端配合完善功能的实现</div>
+          
+        </li>
+      </ul>
+      <!-- 快速开发框架 -->
+      <div class="divide" />
+      <div class="project-title">
+        <h4>快速开发框架</h4>
+      </div>
+      <ul class="project-ul">
+        <li>
+          <div>项目介绍：</div>
+          <div>通过基于 Element-UI 框架与 vue-element-admin 管理系统框架，以及对组件的设计与封装，实现了组件了<i>可扩展性与可复用性</i>，以及<i>有效缩短</i>了搭建一个管理系统所用的时间和功能开发时间</div>
+        </li>
+        <li>
+          <div>技术栈：</div>
+          <div>Vue + Vuex + Element-UI + Axios + Webpack</div>
+        </li>
+        <li style="display: list-item;">
+          <div>主要工作：</div>
+          <ul>
+            <li>负责整个项目的结构设计和主要开发工作</li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </li>
       </ul>
     </section>
   </section>
